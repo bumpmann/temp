@@ -1,0 +1,1332 @@
+[
+	{
+		"undo": {
+			"type": "create_entity",
+			"table": "machin",
+			"value": {
+				"id": "4d2ab781-602b-4905-8f4e-0f469edfecd7",
+				"fields": [
+					{
+						"name": "id",
+						"type": "number",
+						"primary": false,
+						"unique": false,
+						"required": true,
+						"read": true,
+						"write": true,
+						"default": false
+					},
+					{
+						"name": "field",
+						"type": "text",
+						"primary": false,
+						"unique": false,
+						"required": false,
+						"read": true,
+						"write": true,
+						"default": false
+					}
+				],
+				"createdAt": false,
+				"updatedAt": false
+			}
+		},
+		"redo": {
+			"type": "delete_entity",
+			"table": "machin"
+		}
+	},
+	{
+		"undo": {
+			"type": "create_entity",
+			"table": "truc",
+			"value": {
+				"id": "e8248249-4860-477a-b9e3-ca57730a3784",
+				"fields": [
+					{
+						"name": "name",
+						"type": "text",
+						"primary": false,
+						"unique": true,
+						"required": true,
+						"read": true,
+						"write": true,
+						"default": false
+					},
+					{
+						"name": "id",
+						"type": "number",
+						"primary": false,
+						"unique": true,
+						"required": false,
+						"read": true,
+						"write": true,
+						"default": false
+					}
+				]
+			}
+		},
+		"redo": {
+			"type": "delete_entity",
+			"table": "truc"
+		}
+	},
+	{
+		"undo": {
+			"type": "change_field",
+			"table": "test1",
+			"name": "catuni",
+			"value": {
+				"name": "catuni",
+				"type": "number",
+				"primary": false,
+				"unique": true,
+				"required": true,
+				"read": true,
+				"write": true,
+				"default": false
+			}
+		},
+		"redo": {
+			"type": "change_field",
+			"table": "test1",
+			"name": "catuni",
+			"value": {
+				"name": "catuni",
+				"type": "number",
+				"primary": false,
+				"unique": false,
+				"required": true,
+				"read": true,
+				"write": true,
+				"default": false
+			}
+		}
+	},
+	{
+		"undo": {
+			"type": "change_field",
+			"table": "test1",
+			"name": "catuni",
+			"value": {
+				"name": "catuni",
+				"type": "number",
+				"primary": false,
+				"unique": true,
+				"required": true,
+				"read": true,
+				"write": true,
+				"default": false
+			}
+		},
+		"redo": {
+			"type": "change_field",
+			"table": "test1",
+			"name": "catuni",
+			"value": {
+				"name": "catuni",
+				"type": "number",
+				"primary": false,
+				"unique": false,
+				"required": true,
+				"read": true,
+				"write": true,
+				"default": false
+			}
+		}
+	},
+	{
+		"undo": {
+			"type": "change_field",
+			"table": "test1",
+			"name": "catuni",
+			"value": {
+				"name": "catuni",
+				"type": "number",
+				"primary": false,
+				"unique": true,
+				"required": true,
+				"read": true,
+				"write": true,
+				"default": false
+			}
+		},
+		"redo": {
+			"type": "change_field",
+			"table": "test1",
+			"name": "catuni",
+			"value": {
+				"name": "catuni",
+				"type": "number",
+				"primary": false,
+				"unique": false,
+				"required": true,
+				"read": true,
+				"write": true,
+				"default": false
+			}
+		}
+	},
+	{
+		"undo": {
+			"type": "change_field",
+			"table": "test1",
+			"name": "catuni",
+			"value": {
+				"name": "catuni",
+				"type": "number",
+				"primary": false,
+				"unique": true,
+				"required": true,
+				"read": true,
+				"write": true,
+				"default": false
+			}
+		},
+		"redo": {
+			"type": "change_field",
+			"table": "test1",
+			"name": "catuni",
+			"value": {
+				"name": "catuni",
+				"type": "number",
+				"primary": false,
+				"unique": false,
+				"required": true,
+				"read": true,
+				"write": true,
+				"default": false
+			}
+		}
+	},
+	{
+		"undo": {
+			"type": "change_field",
+			"table": "test1",
+			"name": "catuni",
+			"value": {
+				"name": "catuni",
+				"type": "number",
+				"primary": false,
+				"unique": false,
+				"required": true,
+				"read": true,
+				"write": true,
+				"default": false
+			}
+		},
+		"redo": {
+			"type": "change_field",
+			"table": "test1",
+			"name": "catuni",
+			"value": {
+				"name": "catuni",
+				"type": "number",
+				"primary": false,
+				"unique": true,
+				"required": true,
+				"read": true,
+				"write": true,
+				"default": false
+			}
+		}
+	},
+	{
+		"undo": {
+			"type": "change_field",
+			"table": "test1",
+			"name": "catuni",
+			"value": {
+				"name": "catuni",
+				"type": "number",
+				"primary": false,
+				"unique": true,
+				"required": true,
+				"read": true,
+				"write": true,
+				"default": false
+			}
+		},
+		"redo": {
+			"type": "change_field",
+			"table": "test1",
+			"name": "catuni",
+			"value": {
+				"name": "catuni",
+				"type": "number",
+				"primary": false,
+				"unique": false,
+				"required": true,
+				"read": true,
+				"write": true,
+				"default": false
+			}
+		}
+	},
+	{
+		"undo": {
+			"type": "change_field",
+			"table": "test1",
+			"name": "catuni",
+			"value": {
+				"name": "catuni",
+				"type": "number",
+				"primary": false,
+				"unique": false,
+				"required": true,
+				"read": true,
+				"write": true,
+				"default": false
+			}
+		},
+		"redo": {
+			"type": "change_field",
+			"table": "test1",
+			"name": "catuni",
+			"value": {
+				"name": "catuni",
+				"type": "number",
+				"primary": false,
+				"unique": true,
+				"required": true,
+				"read": true,
+				"write": true,
+				"default": false
+			}
+		}
+	},
+	{
+		"undo": {
+			"type": "change_field",
+			"table": "test1",
+			"name": "catuni",
+			"value": {
+				"name": "catuni",
+				"type": "number",
+				"primary": false,
+				"unique": true,
+				"required": true,
+				"read": true,
+				"write": true,
+				"default": false
+			}
+		},
+		"redo": {
+			"type": "change_field",
+			"table": "test1",
+			"name": "catuni",
+			"value": {
+				"name": "catuni",
+				"type": "number",
+				"primary": false,
+				"unique": false,
+				"required": true,
+				"read": true,
+				"write": true,
+				"default": false
+			}
+		}
+	},
+	{
+		"undo": {
+			"type": "change_field",
+			"table": "test1",
+			"name": "catb",
+			"value": {
+				"name": "catb",
+				"type": "float",
+				"primary": false,
+				"unique": false,
+				"required": false,
+				"read": true,
+				"write": true,
+				"default": true,
+				"defaultValue": "3"
+			}
+		},
+		"redo": {
+			"type": "change_field",
+			"table": "test1",
+			"name": "catb",
+			"value": {
+				"name": "catb",
+				"type": "float",
+				"primary": false,
+				"unique": false,
+				"required": true,
+				"read": true,
+				"write": true,
+				"default": true,
+				"defaultValue": 3
+			}
+		}
+	},
+	{
+		"undo": {
+			"type": "change_field",
+			"table": "test1",
+			"name": "catb",
+			"value": {
+				"name": "catb",
+				"type": "float",
+				"primary": false,
+				"unique": false,
+				"required": true,
+				"read": true,
+				"write": true,
+				"default": true,
+				"defaultValue": 3
+			}
+		},
+		"redo": {
+			"type": "change_field",
+			"table": "test1",
+			"name": "catb",
+			"value": {
+				"name": "catb",
+				"type": "float",
+				"primary": false,
+				"unique": "ggg",
+				"required": true,
+				"read": true,
+				"write": true,
+				"default": true,
+				"defaultValue": 3
+			}
+		}
+	},
+	{
+		"undo": {
+			"type": "change_field",
+			"table": "test1",
+			"name": "catuni",
+			"value": {
+				"name": "catuni",
+				"type": "number",
+				"primary": false,
+				"unique": false,
+				"required": true,
+				"read": true,
+				"write": true,
+				"default": false
+			}
+		},
+		"redo": {
+			"type": "change_field",
+			"table": "test1",
+			"name": "catuni",
+			"value": {
+				"name": "catuni",
+				"type": "number",
+				"primary": false,
+				"unique": "ggg",
+				"required": true,
+				"read": true,
+				"write": true,
+				"default": false
+			}
+		}
+	},
+	{
+		"undo": {
+			"type": "change_field",
+			"table": "test1",
+			"name": "catb",
+			"value": {
+				"name": "catb",
+				"type": "float",
+				"primary": false,
+				"unique": "ggg",
+				"required": true,
+				"read": true,
+				"write": true,
+				"default": true,
+				"defaultValue": 3
+			}
+		},
+		"redo": {
+			"type": "change_field",
+			"table": "test1",
+			"name": "catb",
+			"value": {
+				"name": "catb",
+				"type": "float",
+				"primary": false,
+				"unique": false,
+				"required": true,
+				"read": true,
+				"write": true,
+				"default": true,
+				"defaultValue": 3
+			}
+		}
+	},
+	{
+		"undo": {
+			"type": "change_field",
+			"table": "test1",
+			"name": "catuni",
+			"value": {
+				"name": "catuni",
+				"type": "number",
+				"primary": false,
+				"unique": "ggg",
+				"required": true,
+				"read": true,
+				"write": true,
+				"default": false
+			}
+		},
+		"redo": {
+			"type": "change_field",
+			"table": "test1",
+			"name": "catuni",
+			"value": {
+				"name": "catuni",
+				"type": "number",
+				"primary": false,
+				"unique": false,
+				"required": true,
+				"read": true,
+				"write": true,
+				"default": false
+			}
+		}
+	},
+	{
+		"undo": {
+			"type": "change_field",
+			"table": "test1",
+			"name": "catstr",
+			"value": {
+				"name": "cat",
+				"type": "text",
+				"primary": false,
+				"unique": false,
+				"required": false,
+				"read": true,
+				"write": true,
+				"default": true,
+				"defaultValue": "Lol"
+			}
+		},
+		"redo": {
+			"type": "change_field",
+			"table": "test1",
+			"name": "cat",
+			"value": {
+				"name": "catstr",
+				"type": "text",
+				"primary": false,
+				"unique": false,
+				"required": false,
+				"read": true,
+				"write": true,
+				"default": true,
+				"defaultValue": "Lol"
+			}
+		}
+	},
+	{
+		"undo": {
+			"type": "change_field",
+			"table": "test1",
+			"name": "catst",
+			"value": {
+				"name": "catstr",
+				"type": "text",
+				"primary": false,
+				"unique": false,
+				"required": false,
+				"read": true,
+				"write": true,
+				"default": true,
+				"defaultValue": "Lol"
+			}
+		},
+		"redo": {
+			"type": "change_field",
+			"table": "test1",
+			"name": "catstr",
+			"value": {
+				"name": "catst",
+				"type": "text",
+				"primary": false,
+				"unique": false,
+				"required": false,
+				"read": true,
+				"write": true,
+				"default": true,
+				"defaultValue": "Lol"
+			}
+		}
+	},
+	{
+		"undo": {
+			"type": "create_field",
+			"table": "test2",
+			"value": {
+				"name": "test1_id",
+				"type": "number",
+				"primary": false,
+				"unique": false,
+				"required": true,
+				"read": true,
+				"write": true,
+				"default": false
+			},
+			"position": 1
+		},
+		"redo": {
+			"type": "delete_field",
+			"table": "test2",
+			"value": "test1_id"
+		}
+	},
+	{
+		"undo": {
+			"type": "add_relation",
+			"table": "test2",
+			"value": {
+				"field": "test1_id",
+				"reference": {
+					"entity": "test1",
+					"field": "id"
+				},
+				"type": "belongsTo",
+				"entity": "test2"
+			}
+		},
+		"redo": {
+			"type": "delete_relation",
+			"table": "test2",
+			"value": {
+				"field": "test1_id",
+				"reference": {
+					"entity": "test1",
+					"field": "id"
+				},
+				"type": "belongsTo",
+				"entity": "test2"
+			}
+		}
+	},
+	{
+		"undo": {
+			"type": "delete_relation",
+			"table": "test2",
+			"value": {
+				"field": "id_test1",
+				"type": "belongsTo",
+				"reference": {
+					"entity": "test1",
+					"field": "id"
+				},
+				"entity": "test2"
+			}
+		},
+		"redo": {
+			"type": "add_relation",
+			"table": "test2",
+			"value": {
+				"field": "id_test1",
+				"type": "belongsTo",
+				"reference": {
+					"entity": "test1",
+					"field": "id"
+				},
+				"entity": "test2"
+			}
+		}
+	},
+	{
+		"undo": {
+			"type": "delete_relation",
+			"table": "test1",
+			"value": {
+				"type": "hasMany",
+				"reference": {
+					"entity": "test2",
+					"field": "id_test1"
+				}
+			}
+		},
+		"redo": {
+			"type": "add_relation",
+			"table": "test1",
+			"value": {
+				"type": "hasMany",
+				"reference": {
+					"entity": "test2",
+					"field": "id_test1"
+				}
+			}
+		}
+	},
+	{
+		"undo": {
+			"type": "add_relation",
+			"table": "test1",
+			"value": {
+				"type": "hasMany",
+				"reference": {
+					"entity": "test2",
+					"field": "id_test1"
+				},
+				"entity": "test1"
+			}
+		},
+		"redo": {
+			"type": "delete_relation",
+			"table": "test1",
+			"value": {
+				"type": "hasMany",
+				"reference": {
+					"entity": "test2",
+					"field": "id_test1"
+				},
+				"entity": "test1"
+			}
+		}
+	},
+	{
+		"undo": {
+			"type": "create_field",
+			"table": "test2",
+			"value": {
+				"name": "id_test1",
+				"type": "number",
+				"primary": false,
+				"unique": false,
+				"required": true,
+				"read": true,
+				"write": true,
+				"default": false
+			},
+			"position": 1
+		},
+		"redo": {
+			"type": "delete_field",
+			"table": "test2",
+			"value": "id_test1"
+		}
+	},
+	{
+		"undo": {
+			"type": "add_relation",
+			"table": "test2",
+			"value": {
+				"field": "id_test1",
+				"type": "belongsTo",
+				"reference": {
+					"entity": "test1",
+					"field": "id"
+				},
+				"entity": "test2"
+			}
+		},
+		"redo": {
+			"type": "delete_relation",
+			"table": "test2",
+			"value": {
+				"field": "id_test1",
+				"type": "belongsTo",
+				"reference": {
+					"entity": "test1",
+					"field": "id"
+				},
+				"entity": "test2"
+			}
+		}
+	},
+	{
+		"undo": {
+			"type": "delete_relation",
+			"table": "test2",
+			"value": {
+				"field": "id_test1",
+				"type": "belongsTo",
+				"reference": {
+					"entity": "test1",
+					"field": "id"
+				},
+				"entity": "test2"
+			}
+		},
+		"redo": {
+			"type": "add_relation",
+			"table": "test2",
+			"value": {
+				"field": "id_test1",
+				"type": "belongsTo",
+				"reference": {
+					"entity": "test1",
+					"field": "id"
+				},
+				"entity": "test2"
+			}
+		}
+	},
+	{
+		"undo": {
+			"type": "delete_relation",
+			"table": "test1",
+			"value": {
+				"type": "hasMany",
+				"reference": {
+					"entity": "test2",
+					"field": "id_test1"
+				},
+				"entity": "test1"
+			}
+		},
+		"redo": {
+			"type": "add_relation",
+			"table": "test1",
+			"value": {
+				"type": "hasMany",
+				"reference": {
+					"entity": "test2",
+					"field": "id_test1"
+				},
+				"entity": "test1"
+			}
+		}
+	},
+	{
+		"undo": {
+			"type": "add_relation",
+			"table": "test1",
+			"value": {
+				"type": "hasMany",
+				"reference": {
+					"entity": "test2",
+					"field": "id_test1"
+				},
+				"entity": "test1"
+			}
+		},
+		"redo": {
+			"type": "delete_relation",
+			"table": "test1",
+			"value": {
+				"type": "hasMany",
+				"reference": {
+					"entity": "test2",
+					"field": "id_test1"
+				},
+				"entity": "test1"
+			}
+		}
+	},
+	{
+		"undo": {
+			"type": "create_field",
+			"table": "test2",
+			"value": {
+				"name": "id_test1",
+				"type": "number",
+				"primary": false,
+				"unique": false,
+				"required": true,
+				"read": true,
+				"write": true,
+				"default": false
+			},
+			"position": 1
+		},
+		"redo": {
+			"type": "delete_field",
+			"table": "test2",
+			"value": "id_test1"
+		}
+	},
+	{
+		"undo": {
+			"type": "add_relation",
+			"table": "test2",
+			"value": {
+				"field": "id_test1",
+				"type": "belongsTo",
+				"reference": {
+					"entity": "test1",
+					"field": "id"
+				},
+				"entity": "test2"
+			}
+		},
+		"redo": {
+			"type": "delete_relation",
+			"table": "test2",
+			"value": {
+				"field": "id_test1",
+				"type": "belongsTo",
+				"reference": {
+					"entity": "test1",
+					"field": "id"
+				},
+				"entity": "test2"
+			}
+		}
+	},
+	{
+		"undo": {
+			"type": "delete_entity",
+			"table": "aie"
+		},
+		"redo": {
+			"type": "create_entity",
+			"table": "aie",
+			"value": {
+				"id": "2cd35424-e409-4919-9f2d-846586f2bceb",
+				"isRelation": [
+					{
+						"field": "name_test2",
+						"entity": "test2"
+					},
+					{
+						"field": "id_test1",
+						"entity": "test1"
+					}
+				]
+			}
+		}
+	},
+	{
+		"undo": {
+			"type": "delete_relation",
+			"table": "test2",
+			"value": {
+				"as": "name_test2",
+				"through": "aie",
+				"type": "belongsToMany",
+				"reference": {
+					"entity": "test1",
+					"as": "id_test1"
+				},
+				"entity": "test2"
+			}
+		},
+		"redo": {
+			"type": "add_relation",
+			"table": "test2",
+			"value": {
+				"as": "name_test2",
+				"through": "aie",
+				"type": "belongsToMany",
+				"reference": {
+					"entity": "test1",
+					"as": "id_test1"
+				},
+				"entity": "test2"
+			}
+		}
+	},
+	{
+		"undo": {
+			"type": "delete_relation",
+			"table": "test1",
+			"value": {
+				"as": "id_test1",
+				"through": "aie",
+				"type": "belongsToMany",
+				"reference": {
+					"entity": "test2",
+					"as": "name_test2"
+				},
+				"entity": "test1"
+			}
+		},
+		"redo": {
+			"type": "add_relation",
+			"table": "test1",
+			"value": {
+				"as": "id_test1",
+				"through": "aie",
+				"type": "belongsToMany",
+				"reference": {
+					"entity": "test2",
+					"as": "name_test2"
+				},
+				"entity": "test1"
+			}
+		}
+	},
+	{
+		"undo": {
+			"type": "create_entity",
+			"table": "aie",
+			"value": {
+				"id": "2cd35424-e409-4919-9f2d-846586f2bceb",
+				"isRelation": [
+					{
+						"field": "name_test2",
+						"entity": "test2"
+					},
+					{
+						"field": "id_test1",
+						"entity": "test1"
+					}
+				]
+			}
+		},
+		"redo": {
+			"type": "delete_entity",
+			"table": "aie"
+		}
+	},
+	{
+		"undo": {
+			"type": "change_field",
+			"table": "aie",
+			"name": "id_test1",
+			"value": {
+				"name": "id_test1",
+				"read": true,
+				"write": true
+			}
+		},
+		"redo": {
+			"type": "change_field",
+			"table": "aie",
+			"name": "id_test1",
+			"value": {
+				"name": "id_test1",
+				"type": "number",
+				"primary": true,
+				"unique": true,
+				"required": true,
+				"read": true,
+				"write": true,
+				"default": false
+			}
+		}
+	},
+	{
+		"undo": {
+			"type": "change_field",
+			"table": "aie",
+			"name": "name_test2",
+			"value": {
+				"name": "name_test2",
+				"read": true,
+				"write": true
+			}
+		},
+		"redo": {
+			"type": "change_field",
+			"table": "aie",
+			"name": "name_test2",
+			"value": {
+				"name": "name_test2",
+				"type": "text",
+				"primary": true,
+				"unique": true,
+				"required": true,
+				"read": true,
+				"write": true,
+				"default": false
+			}
+		}
+	},
+	{
+		"undo": {
+			"type": "add_relation",
+			"table": "test2",
+			"value": {
+				"as": "name_test2",
+				"type": "belongsToMany",
+				"through": "aie",
+				"reference": {
+					"entity": "test1",
+					"as": "id_test1"
+				},
+				"entity": "test2"
+			}
+		},
+		"redo": {
+			"type": "delete_relation",
+			"table": "test2",
+			"value": {
+				"as": "name_test2",
+				"type": "belongsToMany",
+				"through": "aie",
+				"reference": {
+					"entity": "test1",
+					"as": "id_test1"
+				},
+				"entity": "test2"
+			}
+		}
+	},
+	{
+		"undo": {
+			"type": "add_relation",
+			"table": "test1",
+			"value": {
+				"as": "id_test1",
+				"type": "belongsToMany",
+				"through": "aie",
+				"reference": {
+					"entity": "test2",
+					"as": "name_test2"
+				},
+				"entity": "test1"
+			}
+		},
+		"redo": {
+			"type": "delete_relation",
+			"table": "test1",
+			"value": {
+				"as": "id_test1",
+				"type": "belongsToMany",
+				"through": "aie",
+				"reference": {
+					"entity": "test2",
+					"as": "name_test2"
+				},
+				"entity": "test1"
+			}
+		}
+	},
+	{
+		"undo": {
+			"type": "change_field",
+			"table": "test1",
+			"name": "catf",
+			"value": {
+				"name": "catf",
+				"type": "float",
+				"primary": false,
+				"unique": false,
+				"required": false,
+				"read": true,
+				"write": true,
+				"default": true,
+				"defaultValue": "42.5"
+			}
+		},
+		"redo": {
+			"type": "change_field",
+			"table": "test1",
+			"name": "catf",
+			"value": {
+				"name": "catf",
+				"type": "text",
+				"primary": false,
+				"unique": false,
+				"required": false,
+				"read": true,
+				"write": true,
+				"default": true,
+				"defaultValue": "42.5"
+			}
+		}
+	},
+	{
+		"undo": {
+			"type": "change_field",
+			"table": "test1",
+			"name": "catf",
+			"value": {
+				"name": "catf",
+				"type": "text",
+				"primary": false,
+				"unique": false,
+				"required": false,
+				"read": true,
+				"write": true,
+				"default": true,
+				"defaultValue": "42.5"
+			}
+		},
+		"redo": {
+			"type": "change_field",
+			"table": "test1",
+			"name": "catf",
+			"value": {
+				"name": "catf",
+				"type": "number",
+				"primary": false,
+				"unique": false,
+				"required": false,
+				"read": true,
+				"write": true,
+				"default": true,
+				"defaultValue": 42
+			}
+		}
+	},
+	{
+		"undo": {
+			"type": "change_field",
+			"table": "test1",
+			"name": "catf",
+			"value": {
+				"name": "catf",
+				"type": "number",
+				"primary": false,
+				"unique": false,
+				"required": false,
+				"read": true,
+				"write": true,
+				"default": true,
+				"defaultValue": 42
+			}
+		},
+		"redo": {
+			"type": "change_field",
+			"table": "test1",
+			"name": "catf",
+			"value": {
+				"name": "catf",
+				"type": "float",
+				"primary": false,
+				"unique": false,
+				"required": false,
+				"read": true,
+				"write": true,
+				"default": true,
+				"defaultValue": 42
+			}
+		}
+	},
+	{
+		"undo": {
+			"type": "change_field",
+			"table": "test1",
+			"name": "catst",
+			"value": {
+				"name": "catst",
+				"type": "text",
+				"primary": false,
+				"unique": false,
+				"required": false,
+				"read": true,
+				"write": true,
+				"default": true,
+				"defaultValue": "Lol"
+			}
+		},
+		"redo": {
+			"type": "change_field",
+			"table": "test1",
+			"name": "catst",
+			"value": {
+				"name": "catst",
+				"type": "number",
+				"primary": false,
+				"unique": false,
+				"required": false,
+				"read": true,
+				"write": true,
+				"default": true,
+				"defaultValue": 0
+			}
+		}
+	},
+	{
+		"undo": {
+			"type": "delete_entity",
+			"table": "table1"
+		},
+		"redo": {
+			"type": "create_entity",
+			"table": "table1",
+			"value": {
+				"id": "66c1d818-ba4f-4ecb-8f8b-368d5f5131fe",
+				"fields": [
+					{
+						"name": "id",
+						"type": "number",
+						"primary": true,
+						"unique": true,
+						"required": true,
+						"read": true,
+						"write": false,
+						"default": false,
+						"autoIncrement": true
+					}
+				]
+			}
+		}
+	},
+	{
+		"undo": {
+			"type": "create_entity",
+			"table": "table1",
+			"value": {
+				"id": "66c1d818-ba4f-4ecb-8f8b-368d5f5131fe",
+				"fields": [
+					{
+						"name": "id",
+						"type": "number",
+						"primary": true,
+						"unique": true,
+						"required": true,
+						"read": true,
+						"write": false,
+						"default": false,
+						"autoIncrement": true
+					}
+				]
+			}
+		},
+		"redo": {
+			"type": "delete_entity",
+			"table": "table1"
+		}
+	},
+	{
+		"undo": {
+			"type": "delete_entity",
+			"table": "table1"
+		},
+		"redo": {
+			"type": "create_entity",
+			"table": "table1",
+			"value": {
+				"id": "2e273cfd-add1-443d-b8c2-e9237513956c",
+				"fields": [
+					{
+						"name": "id_table1",
+						"type": "number",
+						"primary": true,
+						"unique": true,
+						"required": true,
+						"read": true,
+						"write": false,
+						"default": false,
+						"autoIncrement": true
+					}
+				]
+			}
+		}
+	},
+	{
+		"undo": {
+			"type": "delete_entity",
+			"table": "table2"
+		},
+		"redo": {
+			"type": "create_entity",
+			"table": "table2",
+			"value": {
+				"id": "6d261154-c9b8-4e01-bc32-02ca2076c044",
+				"fields": [
+					{
+						"name": "id_table2",
+						"type": "number",
+						"primary": true,
+						"unique": true,
+						"required": true,
+						"read": true,
+						"write": false,
+						"default": false,
+						"autoIncrement": true
+					}
+				]
+			}
+		}
+	}
+]
