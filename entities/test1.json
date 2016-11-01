@@ -1,0 +1,71 @@
+{
+	"id": "90c5611a-7923-494c-b686-6b65021918f4",
+	"fields": [
+		{
+			"name": "id",
+			"type": "number",
+			"primary": true,
+			"unique": false,
+			"required": true,
+			"read": true,
+			"write": true,
+			"default": false,
+			"autoIncrement": true
+		},
+		{
+			"name": "name",
+			"type": "text",
+			"primary": false,
+			"unique": true,
+			"required": true,
+			"read": true,
+			"write": true,
+			"default": false
+		},
+		{
+			"name": "catst",
+			"type": "number",
+			"primary": false,
+			"unique": false,
+			"required": false,
+			"read": true,
+			"write": true,
+			"default": true,
+			"defaultValue": 0
+		},
+		{
+			"name": "catf",
+			"type": "float",
+			"primary": false,
+			"unique": false,
+			"required": false,
+			"read": true,
+			"write": true,
+			"default": true,
+			"defaultValue": 42
+		},
+		{
+			"name": "catb",
+			"type": "float",
+			"primary": false,
+			"unique": false,
+			"required": true,
+			"read": true,
+			"write": true,
+			"default": true,
+			"defaultValue": 3
+		},
+		{
+			"name": "catuni",
+			"type": "number",
+			"primary": false,
+			"unique": false,
+			"required": true,
+			"read": true,
+			"write": true,
+			"default": false
+		}
+	],
+	"createdAt": false,
+	"updatedAt": false
+}

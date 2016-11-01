@@ -1,0 +1,16 @@
+{
+	"id": "2e273cfd-add1-443d-b8c2-e9237513956c",
+	"fields": [
+		{
+			"name": "id_table1",
+			"type": "number",
+			"primary": true,
+			"unique": true,
+			"required": true,
+			"read": true,
+			"write": false,
+			"default": false,
+			"autoIncrement": true
+		}
+	]
+}

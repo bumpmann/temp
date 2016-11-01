@@ -1,0 +1,47 @@
+{
+	"id": "8770fe9d-0b1d-4de7-ae19-a7ffbc9f2e0c",
+	"fields": [
+		{
+			"name": "id1",
+			"type": "number",
+			"primary": true,
+			"unique": "sqlite_autoindex_test3_1",
+			"required": true,
+			"read": true,
+			"write": true,
+			"default": false
+		},
+		{
+			"name": "id2",
+			"type": "boolean",
+			"primary": true,
+			"unique": "sqlite_autoindex_test3_1",
+			"required": true,
+			"read": true,
+			"write": true,
+			"default": false
+		},
+		{
+			"name": "g1",
+			"type": "float",
+			"primary": false,
+			"unique": "ugroup",
+			"required": false,
+			"read": true,
+			"write": true,
+			"default": false
+		},
+		{
+			"name": "g2",
+			"type": "date",
+			"primary": false,
+			"unique": "ugroup",
+			"required": false,
+			"read": true,
+			"write": true,
+			"default": false
+		}
+	],
+	"createdAt": false,
+	"updatedAt": false
+}

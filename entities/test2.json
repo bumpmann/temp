@@ -1,0 +1,17 @@
+{
+	"id": "a2bbd8b2-4d96-47ff-bba1-70fc89efd241",
+	"fields": [
+		{
+			"name": "name",
+			"type": "text",
+			"primary": true,
+			"unique": true,
+			"required": true,
+			"read": true,
+			"write": true,
+			"default": false
+		}
+	],
+	"createdAt": false,
+	"updatedAt": false
+}
