@@ -53,7 +53,7 @@
 			"read": true,
 			"write": true,
 			"default": true,
-			"defaultValue": 3
+			"defaultValue": 4
 		},
 		{
 			"name": "catuni",
