@@ -4,30 +4,23 @@
 		{
 			"name": "id",
 			"type": "number",
-			"primary": true,
-			"unique": false,
-			"required": true,
 			"read": true,
 			"write": true,
-			"default": false,
+			"primary": true,
+			"required": true,
 			"autoIncrement": true
 		},
 		{
 			"name": "name",
 			"type": "text",
-			"primary": false,
-			"unique": true,
-			"required": true,
 			"read": true,
 			"write": true,
-			"default": false
+			"unique": true,
+			"required": true
 		},
 		{
 			"name": "catst",
 			"type": "number",
-			"primary": false,
-			"unique": false,
-			"required": false,
 			"read": true,
 			"write": true,
 			"default": true,
@@ -36,9 +29,6 @@
 		{
 			"name": "catf",
 			"type": "float",
-			"primary": false,
-			"unique": false,
-			"required": false,
 			"read": true,
 			"write": true,
 			"default": true,
@@ -47,25 +37,52 @@
 		{
 			"name": "catb",
 			"type": "float",
-			"primary": false,
-			"unique": false,
-			"required": true,
 			"read": true,
 			"write": true,
+			"required": true,
 			"default": true,
 			"defaultValue": 5
 		},
 		{
 			"name": "catuni",
 			"type": "number",
-			"primary": false,
-			"unique": false,
-			"required": true,
 			"read": true,
 			"write": true,
-			"default": false
+			"required": true
 		}
 	],
-	"createdAt": false,
-	"updatedAt": false
+	"relations": [],
+	"queries": [
+		{
+			"id": "byNamet",
+			"type": "findOne",
+			"params": [
+				{
+					"type": "text",
+					"name": "name",
+					"required": true,
+					"checked": false
+				}
+			],
+			"opts": {
+				"include": [],
+				"select": [
+					"id",
+					"name",
+					"catst",
+					"catf",
+					"catb",
+					"catuni"
+				],
+				"conditions": [
+					{
+						"entity": "test1",
+						"name": "name",
+						"operator": "=",
+						"value": "="
+					}
+				]
+			}
+		}
+	]
 }
